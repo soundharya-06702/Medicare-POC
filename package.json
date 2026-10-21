@@ -3,13 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.61.0",
-    "@types/node": "^25.9.3"
-  }
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^25.9.3",
+    "playwright": "^1.64.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundharya-16/POC-Day1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soundharya-16/POC-Day1/issues"
+  },
+  "homepage": "https://github.com/soundharya-16/POC-Day1#readme"
 }

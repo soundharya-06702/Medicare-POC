@@ -1,0 +1,8 @@
+{
+  "name": "Test Patient",
+  "age": "35",
+  "gender": "Female",
+  "phone": "9876543210",
+  "email": "test.patient@example.com",
+  "symptoms": "Chest discomfort and shortness of breath while climbing stairs"
+}

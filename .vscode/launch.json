@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Debug Cucumber Tests",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "args": [
+                "runners.TestRunner"
+            ],
+            "cwd": "${workspaceFolder}/Cucumber selenium/cucumber-selenium-java",
+            "projectName": "cucumber-selenium-java"
+        }
+    ]
+}
